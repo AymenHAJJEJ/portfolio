@@ -41,8 +41,8 @@ export default function Home() {
             <Image
               src="/aymen.jpg"
               alt={`Portrait of ${profile.name}`}
-              width={88}
-              height={88}
+              width={180}
+              height={180}
               className="avatar"
               priority
             />

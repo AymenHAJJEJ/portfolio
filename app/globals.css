@@ -1,12 +1,12 @@
 :root {
-  --bg: #1c1c1e;
-  --fg: #ececec;
-  --muted: #b4b4b4;
-  --dim: #8c8c8c;
-  --border: #3a3a3c;
-  --border-strong: #565658;
-  --card: #242426;
-  --card-hover: #2d2d30;
+  --bg: #4a4d52;
+  --fg: #f5f5f5;
+  --muted: #d0d2d6;
+  --dim: #aeb1b7;
+  --border: #666a70;
+  --border-strong: #868a91;
+  --card: #55585e;
+  --card-hover: #5f6268;
   --font-sans: var(--font-roboto), "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: var(--font-roboto-mono), "Roboto Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
@@ -89,7 +89,7 @@ h2 {
   z-index: 10;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  background: rgba(28, 28, 30, 0.8);
+  background: rgba(74, 77, 82, 0.85);
   border-bottom: 1px solid var(--border);
 }
 
@@ -119,12 +119,14 @@ h2 {
 .nav-links {
   display: flex;
   gap: 24px;
-  font-size: 14px;
-  color: var(--muted);
+  font-size: 15px;
+  color: #fff;
 }
 
 .nav-links a:hover {
-  color: var(--fg);
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* ---------- hero ---------- */
@@ -140,8 +142,8 @@ h2 {
 }
 
 .avatar {
-  width: 88px;
-  height: 88px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border);
