@@ -136,6 +136,15 @@ export default function Home() {
                     <span className="tag" key={t}>{t}</span>
                   ))}
                 </div>
+                <a
+                  className="btn"
+                  href={p.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginTop: 20 }}
+                >
+                  View code ↗
+                </a>
               </article>
             ))}
           </div>

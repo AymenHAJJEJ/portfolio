@@ -57,6 +57,7 @@ export const projects = [
       "Implemented backend functionality and integrated the OpenStreetMap API for interactive, location-based event visualization.",
     ],
     stack: ["Python", "Django", "OpenStreetMap API"],
+    url: "https://github.com/AymenHAJJEJ/event_proj",
   },
   {
     name: "Music DB",
@@ -70,6 +71,7 @@ export const projects = [
       "Built search for quick access to songs, albums, and track information.",
     ],
     stack: ["Java", "Spring", "REST APIs", "MySQL"],
+    url: "https://github.com/AymenHAJJEJ/musicDB",
   },
 ];
 
